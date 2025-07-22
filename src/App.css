@@ -371,3 +371,16 @@ section {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .mobile-nav-links {
+    display: none; /* Default */
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  .mobile-nav-links.open {
+    display: flex;
+  }
+}
