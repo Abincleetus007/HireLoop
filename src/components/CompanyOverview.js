@@ -24,7 +24,7 @@ const CompanyOverview = () => {
   className="enquiry-btn"
   onClick={() =>
     window.open(
-      'https://docs.google.com/forms/d/e/1FAIpQLSdY7aHZGW5nA7RImkbFZHNezR2GAH9IDFeHrFdQKk1m-wQFSA/viewform?usp=header',
+      'https://docs.google.com/forms/d/e/1FAIpQLSdLLmC8kMK04CxYliln76cR2epURP5GNftopcAeNPO0MAwtAQ/viewform?usp=header',
       '_blank',
       'noopener,noreferrer'
     )
